@@ -25,7 +25,7 @@ export const IndexPageTemplate = ({
                 ? image.childImageSharp.fluid.src
                 : image
             })`,
-            backgroundPosition: `top left`,
+            backgroundPosition: `bottom left`,
             backgroundAttachment: `fixed`,
           }}
     >
