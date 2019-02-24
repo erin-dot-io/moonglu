@@ -6,6 +6,7 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
 import './all.sass'
+import './glu.scss'
 
 const TemplateWrapper = ({ children }) => (
   <StaticQuery

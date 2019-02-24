@@ -1,0 +1,39 @@
+$grey: #c5c5c5;
+$white: #ffffff;
+
+.bg-image {
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  width: 100vw;
+  z-index: -1;
+}
+
+.form-wrapper {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 2em;
+}
+
+.glu-logo-wrapper {
+  align-items: center;
+  display: flex;
+  height: 70vh;
+  justify-content: center;
+  padding: 0 20%;
+}
+
+@keyframes color_change {
+  from {
+    stroke: $white;
+  }
+
+  to {
+    stroke: $grey;
+  }
+}
+
+#Glu-Logo path {
+  stroke: $white;
+  animation: color_change 2s infinite alternate;
+}
