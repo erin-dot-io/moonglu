@@ -2,8 +2,8 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
+// import Navbar from '../components/Navbar'
+// import Footer from '../components/Footer'
 
 import './normalize.css'
 import './glu.scss'
@@ -59,9 +59,7 @@ const TemplateWrapper = ({ children }) => (
           <meta property="og:title" content={data.site.siteMetadata.title} />
           <meta property="og:url" content="/" />
         </Helmet>
-        <Navbar />
         <div>{children}</div>
-        <Footer />
       </div>
     )}
   />
