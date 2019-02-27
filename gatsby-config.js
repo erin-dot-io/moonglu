@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Glu',
+    title: 'RSVP for GLU 01',
     description:
       'Glu',
   },
