@@ -7,7 +7,6 @@ import Features from '../components/Features';
 import BlogRoll from '../components/BlogRoll';
 
 import gluBg from '../img/bg-medium.jpg'
-import ogImage from '../img/og-image-white.png'
 
 export const IndexPageTemplate = ({
   image,
@@ -20,7 +19,6 @@ export const IndexPageTemplate = ({
   main
 }) => (
   <div>
-    <img className="og-image-fb" src={ogImage} alt="opengraph placeholder" />
     <div
       className="full-width-image margin-top-0"
       style={{

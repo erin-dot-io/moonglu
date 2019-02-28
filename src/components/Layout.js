@@ -58,6 +58,7 @@ const TemplateWrapper = ({ children }) => (
           <meta property="og:type" content="business.business" />
           <meta property="og:title" content={data.site.siteMetadata.title} />
           <meta property="og:url" content="http://www.moonglu.space/" />
+          <meta property="og:image" content="/img/og-image-white.png" />
         </Helmet>
         <div>{children}</div>
       </div>
