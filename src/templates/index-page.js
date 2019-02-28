@@ -135,7 +135,7 @@ export const IndexPageTemplate = ({
         frameborder="0"
         onmousewheel=""
         width="100%"
-        height="789"
+        height="930"
         style={{ background: 'transparent' }}></iframe>
     </div>
   </div>
