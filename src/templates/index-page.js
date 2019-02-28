@@ -7,7 +7,7 @@ import Features from '../components/Features';
 import BlogRoll from '../components/BlogRoll';
 
 import gluBg from '../img/bg-medium.jpg'
-import ogImage from '../img/og-image-white.png'
+import ogImage from '../img/og-image-white.jpg'
 
 export const IndexPageTemplate = ({
   image,
