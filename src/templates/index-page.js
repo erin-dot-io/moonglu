@@ -119,16 +119,6 @@ export const IndexPageTemplate = ({
     </section>
     <img className="bg-image" src={gluBg} alt="Glu"/>
     <div className="form-wrapper">
-      <div className="glu-logo-wrapper">
-        <svg width="282px" height="231px" viewBox="0 0 282 231" version="1.1">
-          <title>glu-logo</title>
-          <g id="Glu-Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-            <g id="glu-logo---soft-corners---flattened" stroke="#000000" stroke-width="2">
-              <path d="M50,160 C56.627417,160 62,165.372583 62,172 L62,181 C62,187.627417 56.627417,193 50,193 C43.372583,193 38,187.627417 38,181 L38,175 C38,173.895431 37.1045695,173 36,173 L3.44971356,173 C2.43533405,173 1.58159822,173.759389 1.46335018,174.766854 C1.15406041,177.401865 1,179.482483 1,181 C1,208.061953 22.9380473,230 50,230 C77.0619527,230 99,208.061953 99,181 L99,64 C99,62.8954305 98.1045695,62 97,62 L50,62 C22.9380473,62 1,83.9380473 1,111 C1,138.061953 22.9380473,160 50,160 Z M220,111 L220,64 C220,62.8954305 219.104569,62 218,62 L185,62 C183.895431,62 183,62.8954305 183,64 L183,111 C183,138.061953 204.938047,160 232,160 C259.061953,160 281,138.061953 281,111 L281,64 C281,62.8954305 280.104569,62 279,62 L246,62 C244.895431,62 244,62.8954305 244,64 L244,111 C244,117.627417 238.627417,123 232,123 C225.372583,123 220,117.627417 220,111 Z M125,1 C123.895431,1 123,1.8954305 123,3 L123,158 C123,159.104569 123.895431,160 125,160 L159,160 C160.104569,160 161,159.104569 161,158 L161,3 C161,1.8954305 160.104569,1 159,1 L125,1 Z" id="glu-logo"></path>
-            </g>
-          </g>
-        </svg>
-      </div>
       <script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script>
       <iframe
         title="glu-rsvp-form"
@@ -137,8 +127,9 @@ export const IndexPageTemplate = ({
         frameborder="0"
         onmousewheel=""
         width="100%"
-        height="930"
-        style={{ background: 'transparent' }}></iframe>
+        height="700"
+        style={{ background: '#fff' }}>
+      </iframe>
     </div>
   </div>
 );
